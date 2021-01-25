@@ -145,12 +145,13 @@ html, body {
 }
 
 .section-heading::before {
-    right: -910px;
+    left: 50%;
     top: 60px;
+    transform: translate(-50%, 0);
 }
 
 .section-heading::after {
-    right: -930px;
+    left: 50%;
     top: 30px;
 }
 
